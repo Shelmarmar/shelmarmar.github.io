@@ -1,0 +1,60 @@
+* {
+	border: solid;
+	border-color: black;
+	background-color: orange;
+}
+
+
+/*font-family: 'Patrick Hand SC', cursive;*/
+*{
+	padding: 0;
+	margin: none;
+}
+
+header {
+	background-color: green;
+
+
+
+
+}
+img {
+	width: 30em;
+	height: ;
+}
+
+h3 {
+	width: 45em;
+	font-family: 'Patrick Hand SC', cursive;
+	text-align: center;
+	margin: auto;
+}
+body  {
+	font-size: 16px;
+	background-color: #89BBFF;
+	
+}			
+
+
+}
+.divisions {
+	font-family: 'Patrick Hand SC', cursive;
+	text-align: center;
+	width: 30em;
+	margin: auto;
+}
+
+.navlinks {
+	font-family: 'Droid Sans', sans-serif;
+	color: white;
+	padding: .2em 2em;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 2em;
+	
+}
+
+
+
+}
