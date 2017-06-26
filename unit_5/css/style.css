@@ -1,60 +1,69 @@
 * {
-	border: solid;
-	border-color: black;
-	background-color: orange;
-}
-
-
-/*font-family: 'Patrick Hand SC', cursive;*/
-*{
+	/*border: solid;
+	border-color: black;*/
+	
 	padding: 0;
 	margin: none;
 }
 
-header {
-	background-color: green;
 
 
 
 
-}
-img {
-	width: 30em;
-	height: ;
-}
-
-h3 {
-	width: 45em;
-	font-family: 'Patrick Hand SC', cursive;
-	text-align: center;
-	margin: auto;
-}
 body  {
 	font-size: 16px;
-	background-color: #89BBFF;
-	
-}			
-
-
-}
-.divisions {
-	font-family: 'Patrick Hand SC', cursive;
+	background: url(../images/water.jpg);
+	background-size: cover;
+	color: white;
+	font-family: 'Patrick Hand SC';
 	text-align: center;
-	width: 30em;
-	margin: auto;
+}			
+h2 {
+	font-size: 2em;
+	font-family: Arial;
+	background-color: #FFED74;
+}
+
+
+aside {
+	width: 45em;
+	font-family: 'Patrick Hand SC', cursive;
+	font-style: italic;
+	text-align: center;
+	margin: 3em auto;
+	background-color: ##FFC675;
+}
+#logo {
+  
+  text-align: left;
+  backgound-color: #FFED74;
+}
+
+.divisions {
+	width: 45em;
+	font-family: 'Times';
+	text-align: center;
+	margin: 3em auto;
+	background-color: #E89C6C;
+
+	
 }
 
 .navlinks {
+	width: 100em;
 	font-family: 'Droid Sans', sans-serif;
-	color: white;
-	padding: .2em 2em;
+	color: navy;
+	background-color: #E8C66A;
+	border: none;
+	padding: .25em 1em;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-align: center;
-	margin: 2em;
+	margin: 2em 1em;
 	
 }
 
 
-
+footer {
+	background-color: #FF957E;
 }
