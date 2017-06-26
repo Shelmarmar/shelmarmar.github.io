@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background: url("images/water.jpg");
+	background: url(../images/water.jpg);
 	background-size:cover;
 	color: #fff;
 	font-family: Helvetica;
@@ -9,5 +9,5 @@ hr {
 	width: 200px;
 }
 p {
-	font-size: 22px;
+	font-size: 30px;
 }
