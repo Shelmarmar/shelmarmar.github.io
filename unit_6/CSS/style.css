@@ -1,0 +1,115 @@
+		@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans+Condensed:300');
+		@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*img {
+	width: 25em;
+	padding: 3px 2px;*/
+}
+
+
+body  {
+	font-size: 16px;
+	color: #333;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+}			
+h2 {
+	font-size: 30px;
+	font-family: Arial;
+	padding: 10px 20px;
+
+}
+h1 {
+	font-style: italic;
+	font-size: 30px;
+	color: white;
+	text-align: right;
+	padding-right: 40px;
+	
+	float:right;
+	margin-top: 100px;
+	margin-right: 100px;
+	
+}
+footer {
+	font-size: 18px;
+	text-align: center;
+	clear: both;
+}
+/*#longer_slogan {
+	width: 30em;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	text-align: center;
+	margin: 40px auto;
+	
+}*/
+#logo {
+  background:url(../images/water.jpg);
+  background-size:cover;
+  text-align: left;
+  padding-left: 75px;
+}
+
+.divisions {
+	width: 25em;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+	margin: 3em auto;
+	float: left;
+	
+}
+.divisions img {
+	width: 25em;
+	text-align: center;
+	margin: 3em auto;
+	padding: 20px;
+}
+
+.navlinks {
+	
+	width: 150em;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+	padding: 10px 20px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 20px auto;
+	text-decoration: none;
+	background-color: blue;
+	border: px solid red;
+}
+#old_photo {
+	width: 20epx;
+	margin: 20px 40px;
+}
+
+.team {
+	text-align: center;
+	clear: both;
+}
+
+.wrapper {
+	color: green;
+	background-color: purple;
+	width: 90%;
+	margin: auto;
+	clear: both;
+}
+
+#intro {
+	
+	
+	height: 75vh;
+	padding: 10em 0 0;
+}
+.team {
+	
+}
