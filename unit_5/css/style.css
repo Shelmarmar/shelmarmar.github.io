@@ -6,8 +6,13 @@
 	margin: none;
 }
 
-
-
+img {
+	width: 45em;
+	padding: 3px 2px;
+}
+hr {
+	width: 20em;
+}
 
 
 body  {
@@ -26,8 +31,9 @@ h2 {
 
 
 aside {
-	width: 45em;
+	width: 30em;
 	font-family: 'Patrick Hand SC', cursive;
+	font-size: 40px;
 	font-style: italic;
 	text-align: center;
 	margin: 3em auto;
