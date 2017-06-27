@@ -1,9 +1,7 @@
 * {
-	/*border: solid;
-	border-color: black;*/
-	
 	padding: 0;
-	margin: none;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 
@@ -12,9 +10,7 @@
 
 body  {
 	font-size: 16px;
-	background: url(../images/water.jpg);
-	background-size: cover;
-	color: white;
+	color: #333;
 	font-family: 'Patrick Hand SC';
 	text-align: center;
 }			
@@ -45,10 +41,10 @@ aside {
 	text-align: center;
 	margin: 3em auto;
 	background-color: #E89C6C;
-
-	
 }
-
+.divisions img {
+    width: 100%;
+}
 .navlinks {
 	width: 100em;
 	font-family: 'Droid Sans', sans-serif;
@@ -66,4 +62,10 @@ aside {
 
 footer {
 	background-color: #FF957E;
+}
+#intro {
+	background:url(../images/water.jpg);
+	background-size:cover;
+	height: 75vh;
+	padding: 10em 0 0;
 }
