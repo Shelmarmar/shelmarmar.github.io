@@ -60,20 +60,24 @@ footer {
 	width: 25em;
 	font-family: 'Droid Sans', sans-serif;
 	text-align: center;
-	margin: 3em auto;
+	margin: 2em 1em;
 	float: left;
-	
+	padding: 2%;
+	background-color: purple;
+	display: inline-block;
 }
 .divisions img {
 	width: 25em;
+	padding: 2%;
 	text-align: center;
-	margin: 3em auto;
-	padding: 20px;
+	margin: 2em 1em;
+	float: left;
+	
 }
 
 .navlinks {
 	
-	width: 150em;
+	width: 200em;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 18px;
 	color: white;
@@ -96,13 +100,12 @@ footer {
 	clear: both;
 }
 
-.wrapper {
+/*.wrapper {
 	color: green;
-	background-color: purple;
-	width: 90%;
-	margin: auto;
+	width: 100%;
+	margin: 0 auto;
 	clear: both;
-}
+}*/
 
 #intro {
 	
