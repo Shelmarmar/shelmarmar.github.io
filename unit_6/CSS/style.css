@@ -20,7 +20,8 @@ body  {
 h2 {
 	font-size: 30px;
 	font-family: Arial;
-	padding: 10px 20px;
+	font-weight: 300;
+	text-align: center;
 
 }
 h1 {
@@ -32,9 +33,16 @@ h1 {
 	
 	float:right;
 	margin-top: 100px;
-	margin-right: 100px;
-	
+	margin-right: 100px;	
 }
+hr {
+	margin: 1em auto;
+	width: 2em;
+}
+
+
+}
+
 footer {
 	font-size: 18px;
 	text-align: center;
@@ -56,39 +64,55 @@ footer {
   padding-left: 75px;
 }
 
+.clearfix: after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear: both;
+}
+
+.wrapper {
+	clear: both;
+	width: 80%
+	margin: auto;
+}
+
 .divisions {
-	width: 25em;
+	
+	max-width: 22%;
 	font-family: 'Droid Sans', sans-serif;
 	text-align: center;
-	margin: 2em 1em;
+	margin: 1.5%;
 	float: left;
-	padding: 2%;
-	background-color: purple;
-	display: inline-block;
+	background: yellow;
+	padding: 20px;
+
 }
 .divisions img {
-	width: 25em;
-	padding: 2%;
-	text-align: center;
-	margin: 2em 1em;
-	float: left;
-	
+	width: 406px;
+	display: block;
+	margin: auto;
+	height:304.5px;
+	padding: 10px;
 }
 
 .navlinks {
 	
-	width: 200em;
+	
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 18px;
-	color: white;
+	color: navy;
 	padding: 10px 20px;
 	font-weight: 600;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	text-align: center;
-	margin: 20px auto;
+	margin: 20px 20px;
 	text-decoration: none;
-	background-color: blue;
-	border: px solid red;
+	text-transform: uppercase;
+	float: left;
+	border: 2px solid red;
 }
 #old_photo {
 	width: 20epx;
@@ -99,6 +123,11 @@ footer {
 	text-align: center;
 	clear: both;
 }
+.container {
+	border: 5px solid red;
+
+}
+}
 
 /*.wrapper {
 	color: green;
@@ -107,11 +136,11 @@ footer {
 	clear: both;
 }*/
 
-#intro {
+/*#intro {
 	
 	
 	height: 75vh;
-	padding: 10em 0 0;
+	padding: 10em 0 0;*/
 }
 .team {
 	
