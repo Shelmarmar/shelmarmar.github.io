@@ -40,13 +40,11 @@ hr {
 	width: 2em;
 }
 
-
-}
-
 footer {
-	font-size: 18px;
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: 300;
 	text-align: center;
-	clear: both;
 }
 /*#longer_slogan {
 	width: 30em;
@@ -123,11 +121,7 @@ footer {
 	text-align: center;
 	clear: both;
 }
-.container {
-	border: 5px solid red;
 
-}
-}
 
 /*.wrapper {
 	color: green;
@@ -141,7 +135,4 @@ footer {
 	
 	height: 75vh;
 	padding: 10em 0 0;*/
-}
-.team {
-	
 }
