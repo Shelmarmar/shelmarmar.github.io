@@ -47,6 +47,8 @@ footer {
 	font-weight: 300;
 	text-align: center;
 	float: left;
+	border: 2px solid red;
+	background-color: yellow;
 }
 /*#longer_slogan {
 	width: 30em;
@@ -129,6 +131,7 @@ footer {
 	display: inline-block;
 	width: 30%;
 	padding: 5px 50px;
+	background-color: lime;
 }
 .membershipsleft {
 	float: left;
@@ -136,6 +139,7 @@ footer {
 	display: inline-block;
 	width: 30%;
 	padding: 5px 50px;
+	background-color: lime;
 }
 
 
