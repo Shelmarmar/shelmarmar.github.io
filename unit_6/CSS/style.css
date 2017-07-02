@@ -139,50 +139,53 @@ hr {
 
 #TGWA {
 	float: left;
-	padding: 0 5px;
-	margin: 0 15px;
+	padding: 0 20px;
+	margin: 0 50px;
 	display: inline-block;
 	width: 15%;
 	text-align: center;
+	
 }
 
 #TWCA {
 	float:left;
-	padding: 0 5px;
-	margin: 0 15px;
+	padding: 0 20px;
+	margin: 0 50px;
 	display: inline-block;
 	width: 15%;
 	text-align: center;
+	
 }
 .contact {
 	width: 15%;
-	
+	float: left;
 	font-size: 20px;
 	font-family: Arial;
 	font-weight: 300;
 	text-align: center;
 	display: inline-block;
-	margin: 0 15px;
-	border: 2px solid red;
+	margin: 0 50px;
+	
+	padding: 0 20px;
 	
 }#TRWA {
 	
-	float: right;
-	padding: 0 5px;
-	margin: 0 15px;
+	float: left;
+	padding: 0 20px;
+	margin: 0 50px;
 	display: inline-block;
 	width: 15%;
-	border: 2px solid green;
+	
 	text-align: center;
 }
 
 #TWDB {
-	float:right;
-	padding: 0 5px;
+	float:left;
+	padding: 0 20px;
 	display: inline-block;
-	margin: 0 15px;
+	margin: 0 50px;
 	width: 15%;
-	border: 2px solid green;
+	
 	text-align: center;
 }
 
