@@ -1,0 +1,197 @@
+		@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans+Condensed:300');
+		@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*img {
+	width: 25em;
+	padding: 3px 2px;*/
+}
+
+
+body  {
+	font-size: 16px;
+	color: #333;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+}			
+h2 {
+	font-size: 30px;
+	font-family: Arial;
+	font-weight: 300;
+	text-align: center;
+}
+h1 {
+	font-style: italic;
+	font-size: 30px;
+	color: white;
+	text-align: right;
+	padding-right: 40px;
+	float:right;
+	margin-top: 100px;
+	margin-right: 100px;	
+}
+hr {
+	margin: 1em auto;
+	width: 2em;
+}
+
+
+/*#longer_slogan {
+	width: 30em;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	text-align: center;
+	margin: 40px auto;
+	
+}*/
+#logo {
+  background:url(../images/water.jpg);
+  background-size:cover;
+  text-align: left;
+  padding-left: 75px;
+  
+}
+
+.clearfix: after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content:"hello";
+	display: block;
+	clear: both;
+}
+
+.wrapper {
+	clear: both;
+	width: 80%
+	margin: auto;
+}
+
+.divisions {
+	max-width: 22%;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+	margin: 1.5%;
+	float: left;
+	padding: 20px;
+
+}
+.divisions img {
+	width: 406px;
+	display: block;
+	margin: auto;
+	height:304.5px;
+	padding: 10px;
+}
+
+.navlinks {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 18px;
+	color: navy;
+	padding: 10px 20px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	text-align: center;
+	margin: 20px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	float: left;
+	margin-left: 4em;
+	
+}
+
+
+
+
+
+
+/*.membershipsright {
+	float: right;
+
+	display: inline-block;
+	width: 30%;
+	padding: 20px 50px;
+
+	margin: 0 50px;
+
+}
+.membershipsleft {
+	float: left;
+
+	display: inline-block;
+	width: 30%;
+	padding: 20px 50px;
+	
+	text-align: right;
+	margin: 0 50px;
+}*/
+
+#TGWA {
+	float: left;
+	padding: 0 20px;
+	margin: 0 50px;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	
+}
+
+#TWCA {
+	float:left;
+	padding: 0 20px;
+	margin: 0 50px;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	
+}
+.contact {
+	width: 15%;
+	float: left;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: 300;
+	text-align: center;
+	display: inline-block;
+	margin: 0 50px;
+	padding: 0 20px;
+	
+}
+#TRWA {
+	
+	float: left;
+	padding: 0 20px;
+	margin: 0 50px;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+}
+#TWDB {
+	float:left;
+	padding: 0 20px;
+	display: inline-block;
+	margin: 0 50px;
+	width: 15%;
+	text-align: center;
+}
+
+
+a:hover {
+	background-color: #cce6ff;
+
+}
+
+
+
+
+
+/*#intro {
+	
+	
+	height: 75vh;
+	padding: 10em 0 0;*/
+}
