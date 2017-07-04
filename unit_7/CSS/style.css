@@ -18,20 +18,20 @@ body  {
 	text-align: center;
 }			
 h2 {
-	font-size: 30px;
+	font-size: 1.875em;
 	font-family: 'Droid Sans', sans-serif;
 	font-weight: 300;
 	text-align: center;
 }
 h1 {
 	font-style: italic;
-	font-size: 30px;
+	font-size: 2.5em;
 	color: white;
 	text-align: right;
-	padding-right: 40px;
+	padding-right: 2.5em;
 	float:right;
-	margin-top: 100px;
-	margin-right: 100px;	
+	margin-top: 2.25em;
+	margin-right: 2.25em;	
 }
 hr {
 	margin: 1em auto;
@@ -52,7 +52,7 @@ hr {
   background:url(../images/water.jpg);
   background-size:cover;
   text-align: left;
-  padding-left: 75px;
+  padding-left: 5.69em;
   
 }
 
@@ -77,37 +77,39 @@ hr {
 	text-align: center;
 	margin: 1.5%;
 	float: left;
-	padding: 20px;
+	padding: 1.25em;
 
 }
 .divisions img {
-	width: 406px;
+	width: 25.375em;
 	display: block;
 	margin: auto;
-	height:304.5px;
-	padding: 10px;
+	height:19.03em;
+	padding: 0.625em;
 }
 
 .navlinks {
+
 	font-family: 'Droid Sans', sans-serif;
-	font-size: 18px;
+	font-size: 1em;
 	color: navy;
-	padding: 10px 20px;
+	padding: 1% 1%;
 	font-weight: 600;
 	letter-spacing: 1.5px;
 	text-align: center;
-	margin: 20px 20px;
 	text-decoration: none;
 	text-transform: uppercase;
-	float: left;
-	margin-left: 4em;
 	
+	display: inline-block;
+	width: 16%;
 }
+
+
 
 #TGWA, #TWCA , #TRWA, #TWDB {
 	float: left;
-	padding: 0 20px;
-	margin: 0 50px;
+	padding: 0 2%;
+	margin: 0 3%;
 	display: inline-block;
 	width: 15%;
 	text-align: center;
@@ -118,13 +120,13 @@ hr {
 .contact {
 	width: 15%;
 	float: left;
-	font-size: 20px;
+	font-size: 1.25em;
 	font-family: Arial;
 	font-weight: 300;
 	text-align: center;
 	display: inline-block;
-	margin: 0 50px;
-	padding: 0 20px;
+	margin: 0 3.125em;
+	padding: 0 1.25em;
 	
 }
 
@@ -134,8 +136,7 @@ a:hover {
 
 }
 
-
-
+@media only screen and (max-width: )
 
 
 /*#intro {
