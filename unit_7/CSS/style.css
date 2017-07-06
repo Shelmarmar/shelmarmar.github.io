@@ -35,7 +35,7 @@ h1 {
 }
 hr {
 	margin: 1em auto;
-	width: 2em;
+	width: 32px;
 }
 
 
@@ -56,21 +56,6 @@ hr {
   
 }
 
-.clearfix:after {
-	visibility: hidden;
-	height: 0;
-	font-size: 0;
-	content:"";
-	display: block;
-	clear: both;
-}
-
-.wrapper {
-	clear: both;
-	width: 80%
-	margin: auto;
-}
-
 .divisions {
 	max-width: 22%;
 	font-family: 'Droid Sans', sans-serif;
@@ -81,19 +66,22 @@ hr {
 
 }
 .divisions img {
-	width: 25.375em;
+	width: 406px;
 	display: block;
 	margin: auto;
 	height:19.03em;
 	padding: 0.625em;
 }
+.wrapper {
+	background-color: purple;
+}
 
-.navlinks {
+nav a {
 
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 1em;
 	color: navy;
-	padding: 1% 1%;
+	padding: 1% .5%;
 	font-weight: 600;
 	letter-spacing: 1.5px;
 	text-align: center;
@@ -106,7 +94,7 @@ hr {
 
 
 
-#TGWA, #TWCA , #TRWA, #TWDB {
+#TGWA, #TWCA {
 	float: left;
 	padding: 0 2%;
 	margin: 0 3%;
@@ -136,7 +124,15 @@ a:hover {
 
 }
 
-@media only screen and (max-width: )
+@media only screen and (max-width: 1890px) {
+	nav a {
+		width: 12%;
+	}
+	.divisions {
+		max-width: 12%;
+	}
+ }
+}
 
 
 /*#intro {
