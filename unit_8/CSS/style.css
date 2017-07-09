@@ -74,7 +74,7 @@ header {
 	text-align: center;
 	margin: 2% 0.5%;
 	float: left;
-	background-color: purple;
+	
 	height: 34em;
 }
 .divisions img {
@@ -169,7 +169,7 @@ nav a:hover {
 		margin-left: 0;
 		margin-right: 0;
 		width: 33%;
-
+		padding: 13px 0;
 	}
 	h1 {
 		font-size: 2em;
@@ -211,6 +211,7 @@ nav a:hover {
 		nav a {
 			margin: auto;
 			text-align: center;
+			text-decoration: underline;
 
 		}
 		#TGWA, #NGWA {
@@ -222,32 +223,77 @@ nav a:hover {
 
 		}
 		.clearfix {
-			border: 2px solid lime;
+			
 		}
 		
 		.divisions {
 			width: 40%;
 			margin: 0 2px 0 50px;
-			background-color: purple;
+			
 		}
 		.contact {
 			margin: 45px 0 0 0;
 		}
-		.navl, .navr {
-			display: inline-block;
-			
-		}
+		
 @media only screen and (max-width: 860px) {
 		h1 {
 			font-size: 1.5em;
 		}
 
+		.divisions {
+		    display: block;
+		    width: 54%;
+		    /* margin: auto; */
+		    margin: 0 20% 3%;
 }
+		.contact {
+			font-size: 1em;
+		}
+		nav a {
+			display: block;
+    		width: 52%;
+    		font-size: 1.5em;
+    		text-decoration: none;
+		}
 @media only screen and (max-width: 768px) {
-		
+		nav a {
+			font-size: 1.25em;
+    		width: 65%;
 
 }
-@media only screen and (max-width: 480px) {
-		
+		h1 {
+			font-size: 1.25em;
+		}
+		#TGWA, #NGWA, .contact {
+			width:40%;
+			clear: both;
+			float: none;
+			display: block;
+			margin: auto;
+			padding: 20px;
+		}
+		header img {
+			width: 75%;
+		}
+		.divisions {
+			width: 70%;
+			margin: 0 90px;
+}
+		#TGWA {
+			padding-top: 50px;
+		}
+@media only screen and (max-width: 480px) { 
+		header {
+			height: 285px;
+		}
 
+		h1 {
+			font-size: 1.25em;
+			margin: 20px auto;
+		}
+		.contact {
+			width: 80%;
+    		font-size: 1.5em;
+    		padding: 0 0 32px;
+		}
 }
