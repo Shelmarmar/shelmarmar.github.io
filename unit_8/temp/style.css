@@ -1,0 +1,299 @@
+		@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans+Condensed:300');
+		@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*img {
+	width: 25em;
+	padding: 3px 2px;*/
+}
+
+
+body  {
+	font-size: 16px;
+	color: #333;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+}			
+h2 {
+	font-size: 1.875em;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 300;
+	text-align: center;
+}
+h1 {
+	font-style: italic;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 2em;
+	color: white;
+	text-align: right;
+	padding-right: 2.5em;
+	float:right;
+	margin-top: 3.5em;
+	margin-right: 2.25em;	
+}
+hr {
+	margin: 1em auto;
+	width: 2em;
+}
+
+
+/*#longer_slogan {
+	width: 30em;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	text-align: center;
+	margin: 40px auto;
+	
+}*/
+header {
+  background:url(../images/water.jpg);
+  background-size:cover;
+  text-align: left;
+  padding-left: 5.69em;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	height: 0;
+	font-size: 0;
+	visibility: hidden;
+}
+.divisions {
+	width: 24%;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+	margin: 2% 0.5%;
+	float: left;
+	
+	height: 34em;
+}
+.divisions img {
+	width: 100%;
+	display: block;
+	margin: auto;
+	height:19.03em;
+	/*padding: 0.625em;*/
+}
+.wrapper {
+
+}
+
+nav {
+	text-align: center;
+	margin-top: 50px;
+}
+
+nav a {
+	font-family: 'Droid Sans', sans-serif;
+	color: navy;
+	padding: .5em 0;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	float: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	width: 16.666%;
+}
+nav a:hover {
+	background-color: #cce6ff;
+}
+
+
+#TGWA, #NGWA {
+	float: left;
+	padding: 0 2%;
+	margin: 50px 3%;
+	display: inline-block;
+	width: 26%;
+	text-align: center;
+	
+}
+
+
+.contact {
+	
+	
+	width: 26%;
+	float: left;
+	font-size: 1.25em;
+	font-family: Arial;
+	font-weight: 300;
+	text-align: center;
+	display: inline-block;
+	margin: 50px 3.125em;
+	padding: 0 1.25em;
+	
+}
+
+
+
+@media only screen and (max-width:1860px) {
+	h1 {
+		font-size: 1.75em;
+	}
+	.contact {
+		display: inline-block;
+	}
+	
+	#TWGA, #NGWA {
+		display: inline-block;
+	}
+	
+	header {
+		width: 100%;
+
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	.divisions img {
+		padding: 1.625em;
+	}
+@media only screen and (max-width: 1765px) {
+	nav a {
+		float: none;
+		display: inline-block;
+		margin-left: 0;
+		margin-right: 0;
+		width: 33%;
+		padding: 13px 0;
+	}
+	h1 {
+		font-size: 2em;
+		float: none;
+		text-align: center;
+		margin-top: 1em;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	
+	.clearfix {
+		margin: 44px 0 0 0;
+	}
+
+
+	/*.divisions {
+		
+		width: 40%;
+		margin: 65px;
+		text-align: center;
+
+	}*/
+	
+
+	.wrapper {
+		margin-top: 50px;
+	}
+	header {
+		clear: both;
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		height: 400px;
+		text-align: center;
+		padding-left: 0;
+	}
+@media only screen and (max-width: 1300px) {
+		nav a {
+			margin: auto;
+			text-align: center;
+			text-decoration: underline;
+
+		}
+		#TGWA, #NGWA {
+			margin-left: -60px 0 0 0;
+			padding: 0;
+
+		}
+		.wrapper {
+
+		}
+		.clearfix {
+			
+		}
+		
+		.divisions {
+			width: 40%;
+			margin: 0 2px 0 50px;
+			
+		}
+		.contact {
+			margin: 45px 0 0 0;
+		}
+		
+@media only screen and (max-width: 860px) {
+		h1 {
+			font-size: 1.5em;
+		}
+
+		.divisions {
+		    display: block;
+		    width: 54%;
+		    /* margin: auto; */
+		    margin: 0 20% 3%;
+}
+		.contact {
+			font-size: 1em;
+		}
+		nav a {
+			display: block;
+    		width: 52%;
+    		font-size: 1.5em;
+    		text-decoration: none;
+		}
+@media only screen and (max-width: 768px) {
+		nav a {
+			font-size: 1.25em;
+    		width: 65%;
+
+}
+		h1 {
+			font-size: 1.25em;
+		}
+		#TGWA, #NGWA, .contact {
+			width:40%;
+			clear: both;
+			float: none;
+			display: block;
+			margin: auto;
+			padding: 20px;
+		}
+		header img {
+			width: 75%;
+		}
+		.divisions {
+			width: 70%;
+			margin: 0 90px;
+}
+		#TGWA {
+			padding-top: 50px;
+		}
+@media only screen and (max-width: 480px) { 
+		header {
+			height: 285px;
+		}
+
+		h1 {
+			font-size: 1.25em;
+			margin: 20px auto;
+		}
+		.contact {
+			width: 80%;
+    		font-size: 1.5em;
+    		padding: 0 0 32px;
+		}
+}
