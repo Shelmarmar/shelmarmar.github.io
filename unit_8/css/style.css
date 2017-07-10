@@ -300,5 +300,9 @@ nav a:hover {
 			width: 100%;
 			margin: auto;
 		}
-		
+		#NGWA {
+			margin: auto;
+    
+    		width: 100%;
+		}
 }
