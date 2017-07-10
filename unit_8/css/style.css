@@ -285,6 +285,10 @@ nav a:hover {
 		#TGWA {
 			padding-top: 50px;
 		}
+		a[href^="tel"]{
+    		color:inherit;
+    		text-decoration:none;
+}
 @media only screen and (max-width: 480px) { 
 		header {
 			height: 285px;
@@ -322,8 +326,5 @@ nav a:hover {
     
     		width: 100%;
 		}
-		a[href^="tel"]{
-    		color:inherit;
-    		text-decoration:none;
-}
+		
 }
