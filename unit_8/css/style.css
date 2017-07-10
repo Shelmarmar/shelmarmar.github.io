@@ -39,6 +39,9 @@ hr {
 	width: 2em;
 }
 
+p {
+	margin: 0 20px;
+}
 
 /*#longer_slogan {
 	width: 30em;
