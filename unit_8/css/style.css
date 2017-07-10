@@ -289,6 +289,16 @@ nav a:hover {
 		header {
 			height: 285px;
 		}
+		nav {
+			background-color: #cce6ff;
+
+		}
+		nav a {
+			font-size: 1em;
+    		width: 65%;
+    		letter-spacing: 0;
+
+    	}
 		p {
 			width: 90%;
 			margin: auto;
@@ -305,7 +315,7 @@ nav a:hover {
 		}
 		.divisions {
 			width: 100%;
-			margin: auto;
+			margin: 0 auto;
 		}
 		#NGWA {
 			margin: auto;
