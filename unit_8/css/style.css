@@ -312,4 +312,8 @@ nav a:hover {
     
     		width: 100%;
 		}
+		a[href^="tel"]{
+    		color:inherit;
+    		text-decoration:none;
+}
 }
