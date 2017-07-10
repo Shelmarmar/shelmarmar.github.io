@@ -293,6 +293,7 @@ nav a:hover {
 		h1 {
 			font-size: 1.25em;
 			margin: 20px auto;
+			text-decoration: none;
 		}
 		.contact {
 			width: 80%;
