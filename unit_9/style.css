@@ -115,15 +115,14 @@ nav a:hover {
 	background-color: #cce6ff;
 }
 
-#valleylogo {
-	text-align: center;
-	float: left;
-	width: 20px;
-} 
 
 
+#footer {
+	background:url(../images/water.jpg);
+}
 
 #TGWA, #NGWA {
+	
 	float: left;
 	padding: 0 2%;
 	margin: 50px 3%;
@@ -132,6 +131,7 @@ nav a:hover {
 	text-align: center;
 }
 .contact {
+	
 	width: 26%;
 	float: left;
 	font-size: 1.25em;
@@ -144,10 +144,8 @@ nav a:hover {
 	
 }
 
-.container {
-	background-color: green;
-	border: 2px solid lime;
-}
+
+
 
 
 
