@@ -9,9 +9,6 @@
 	width: 25em;
 	padding: 3px 2px;*/
 }
-/*a {
-	text-decoration: none;*/
-}
 
 body  {
 	font-size: 16px;
@@ -164,7 +161,6 @@ nav a:hover {
     text-align: center;
     margin: 40px auto;
     font-size: 1.25em;
-    text-decoration: none;
 }
 
 
@@ -195,11 +191,11 @@ nav a:hover {
 	}
 @media only screen and (max-width: 1765px) {
 	nav a {
-		float: none;
+		float: left;
 		display: inline-block;
 		margin-left: 0;
 		margin-right: 0;
-		width: 33%;
+		width: 15%;
 		padding: 13px 0;
 	}
 	h1 {
@@ -234,27 +230,36 @@ nav a:hover {
 		width: 100%;
 		margin-right: 0;
 		margin-left: 0;
-		height: 400px;
+		height: 481px;
 		text-align: center;
 		padding-left: 0;
 	}
+
+@media only screen and (max-width: 1500px) {
+
+nav a {
+		
+		display: inline-block;
+    	margin: 0 auto 0 20px;
+    	/* border: 2px solid navy; */
+    	width: 15%;
+    	padding: 8x 3px;
+	}
+	.clearfix {
+		margin: 33px 0 0 0;
+	}
+
+
 @media only screen and (max-width: 1300px) {
 		nav a {
-			margin: auto;
+			display: block;
+			margin: 5px auto 0 20px;
 			text-align: center;
-			text-decoration: underline;
-
+			padding: 15px;
 		}
 		#TGWA, #NGWA {
 			margin-left: -60px 0 0 0;
 			padding: 0;
-
-		}
-		.wrapper {
-
-		}
-		.clearfix {
-			
 		}
 		
 		.divisions {
@@ -265,7 +270,22 @@ nav a:hover {
 		.contact {
 			margin: 45px 0 0 0;
 		}
-		
+
+@media only screen and (max-width: 1200px) {
+		nav a {
+			display: block;
+   			width: 33%;
+    		font-size: 1em;
+    		text-decoration: underline;
+    		background-color: navy;
+    		color: white;
+    		
+		}	
+		nav a:hover {
+			background-color: #cce6ff;
+			color: navy;	
+		}
+
 @media only screen and (max-width: 860px) {
 		h1 {
 			font-size: 1.5em;
@@ -273,18 +293,21 @@ nav a:hover {
 
 		.divisions {
 		    display: block;
-		    width: 54%;
-		    /* margin: auto; */
-		    margin: 0 20% 3%;
+    		width: 52%;
+    		/* margin: auto; */
+    		margin: 0 auto;
+    		float: none;
 }
 		.contact {
 			font-size: 1em;
 		}
 		nav a {
 			display: block;
-    		width: 52%;
-    		font-size: 1.5em;
+    		width: 50%;
+    		font-size: 1.25em;
     		text-decoration: none;
+    		float: none;
+    		margin: 5px auto;
 		}
 		a[href^="tel"]{
     		color:inherit;
@@ -320,7 +343,7 @@ nav a:hover {
 
 @media only screen and (max-width: 480px) { 
 		header {
-			height: 285px;
+			height: 340px;
 		}
 		nav {
 			background-color: #cce6ff;
