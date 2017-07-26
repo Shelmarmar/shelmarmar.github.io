@@ -260,6 +260,7 @@ nav a {
 		#TGWA, #NGWA {
 			margin-left: -60px 0 0 0;
 			padding: 0;
+			width: 30%;
 		}
 		
 		.divisions {
@@ -271,6 +272,18 @@ nav a {
 			margin: 45px 0 0 0;
 		}
 
+		.valley {
+			 width: 100%;
+    		/* background-color: lime; */
+    		display: inline-flex;
+    		flex-wrap: wrap;
+    		justify-content: center;
+    		margin: 50px auto;
+    		/* height: 400px; */
+		}
+
+
+
 @media only screen and (max-width: 1200px) {
 		nav a {
 			display: block;
@@ -279,7 +292,7 @@ nav a {
     		text-decoration: underline;
     		background-color: navy;
     		color: white;
-    		
+    		margin: auto;
 		}	
 		nav a:hover {
 			background-color: #cce6ff;
